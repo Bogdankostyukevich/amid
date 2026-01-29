@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+:root {
+    --grin-bg-color: #124F48;
+    --white-text-color: #ffffff;
+    --primary-text-color: #464646;
+}
+
+/* Universalwähler */
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* utility */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* hat project */
+.header {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.container {
+    width: 1145px;
+
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    outline: 1px solid red;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 150px;
+}
+
+/* navigation */
+.nav-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.primary-text {
+    color: var(--primary-text-color);
+}
+
+.nav-list .nav-list__item + .nav-list__item {
+    margin-left: 59px;
+}
+
+.primary-link__grin,
+.secondary-link__orang {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-link__grin {
+    margin-left: auto;
+
+    border-radius: 50px;
+
+    width: 126px;
+    height: 57px;
+
+    background-color: var(--grin-bg-color);
+    color: var(--white-text-color);
+}
+
+.current {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+.nav-list__item {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+/* hiro section */
+.hiro {
+    background-color: #E9FBF9;
+}
+
+.container {
+}
+
+.pretitle {
+}
+
+.hiro__title {
+}
+
+.hiro__text {
+}
+
+.secondary-link__orang {
+}
