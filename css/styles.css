@@ -4,6 +4,10 @@
     --grin-bg-color: #124F48;
     --white-text-color: #ffffff;
     --primary-text-color: #464646;
+    --bg-color-section: #E9FBF9;
+    --pretitle-text-color: #FF6107;
+    --text-color: #464646;
+    --secondary-link-bg: #FF823B;
 }
 
 /* Universalwähler */
@@ -76,13 +80,15 @@ a {
     justify-content: center;
 }
 
-.primary-link__grin {
-    margin-left: auto;
-
+.form-link {
     border-radius: 50px;
 
     width: 126px;
     height: 57px;
+}
+
+.primary-link__grin {
+    margin-left: auto;
 
     background-color: var(--grin-bg-color);
     color: var(--white-text-color);
@@ -102,20 +108,78 @@ a {
 
 /* hiro section */
 .hiro {
-    background-color: #E9FBF9;
-}
+    width: 1319px;
 
-.container {
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: var(--bg-color-section);
+
+    border-radius: 20px;
+
+    outline: 1px solid tomato;
 }
 
 .pretitle {
+    display: inline-block;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0.30;
+
+    margin-top: 74px;
+    margin-bottom: 30px;
+    padding: 11px 22px;
+
+    border-radius: 2px;
+
+    background-color: var(--white-text-color);
+    color: var(--pretitle-text-color);
+
 }
 
 .hiro__title {
+    font-family: 'Open+Sans', sans-serif;
+    margin-bottom: 31px;
+
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.1;
 }
 
 .hiro__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+
+    margin-bottom: 81px;
+
+    color: var(--text-color);
+}
+
+.secondary-list {
+    display: flex;
+    align-items: baseline;
+}
+
+.secondary-list__title {
+    margin-right: 55px;
+}
+
+.secondary-link,
+.secondary-link__orang {
+    font-size: 18;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.secondary-link {
+    color: var(--secondary-link-bg);
 }
 
 .secondary-link__orang {
+    margin-bottom: 106px;
+    
+    color: var(--white-text-color);
+    background-color: var(--secondary-link-bg);
 }
