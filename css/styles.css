@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
 
 :root {
     --grin-bg-color: #124F48;
@@ -14,10 +14,10 @@
     --bg-color-yellow: #FFF7CA;
     --bg-color-red: #FFE9E0;
     --services-text-color: #464646;
-}
+} */
 
 /* Universalwähler */
-* {
+/* * {
     box-sizing: border-box;
 
     margin: 0;
@@ -26,11 +26,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 /* utility */
 
-ul {
+/* ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -38,10 +38,10 @@ ul {
 
 a {
     text-decoration: none;
-}
+} */
 
 /* hat project */
-.header {
+/* .header {
     margin-top: 40px;
     margin-bottom: 70px;
 }
@@ -59,9 +59,10 @@ a {
 .header-flex {
     display: flex;
     align-items: center;
-}
+} */
 
-.logo {
+/* logo */
+/* .logo {
     margin-right: 150px;
 
     width: 115px;
@@ -70,10 +71,10 @@ a {
     background-image: url("../images/logo.png");
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 /* navigation */
-.nav-list {
+/* .nav-list {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -115,10 +116,10 @@ a {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.03em;
-}
+} */
 
 /* hiro section */
-.hiro {
+/* .hiro {
     position: relative;
     width: 1319px;
 
@@ -272,10 +273,10 @@ a {
     margin-left: 16px;
 
     color: var(--pretitle-text-color);
-}
+} */
 
 /* clients */
-.clients {
+/* .clients {
     margin-bottom: 100px;
 }
 
@@ -307,12 +308,10 @@ a {
 .clients-list__icon {
     background-color: var(--clients-bg-color);
     overflow: visible;
-
-
-}
+} */
 
 /* services  */
-.services > .pretitle {
+/* .services > .pretitle {
     margin-top: 11px;
     margin-left: 28px;
 }
@@ -439,4 +438,4 @@ a {
     margin-left: 14px;
 
     overflow: visible;
-}
+} */

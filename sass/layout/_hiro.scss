@@ -1,0 +1,135 @@
+/* hiro section */
+.hiro {
+    position: relative;
+    width: 1319px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 170px;
+
+    border-radius: 20px;
+
+    outline: 1px solid tomato;
+
+    background-image: url("../images/fon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img {
+    position: absolute;
+
+    width: 787px;
+    height: 629px;
+
+    right: -30px;
+    bottom: 0;
+}
+
+.hiro-stats {
+    position: absolute;
+
+    right: 370px;
+    bottom: -90px;
+
+    width: 314px;
+
+    border-radius: 30px;
+    padding: 24px;
+
+    z-index: 10;
+    
+    background-color: $white-text-color;
+
+    opacity: 0.9;
+
+    box-shadow: $shadow;
+}
+
+.hiro-stats__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-right: -30px;
+    margin-bottom: -30px;
+}
+
+.hiro-stats__item {
+    flex-basis: calc(100% / 2 - 30px);
+    
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.hiro-stats__item svg {
+    width: 100%;  
+    height: auto;
+    max-width: 104px;
+}
+
+.pretitle {
+    display: inline-block;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0.30;
+
+    border-radius: 2px;
+
+    background-color: $white-text-color;
+    color: $pretitle-text-color;
+}
+
+.work > .pretitle {
+    margin-top: 74px;
+    margin-bottom: 30px;
+    padding: 11px 22px;
+}
+
+.hiro__title {
+    font-family: 'Open+Sans', sans-serif;
+    margin-bottom: 31px;
+
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.hiro__text {
+    margin-bottom: 81px;
+}
+
+.hiro__text,
+.services-primary-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+
+    color: $text-color;
+}
+
+.actions-list {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 55px;
+
+    margin-bottom: 106px;
+
+}
+.actions-list__title {
+    padding: 18px 39px;
+
+    background-color: $secondary-link-bg;
+
+    border-radius: 50px;
+}
+
+.play-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

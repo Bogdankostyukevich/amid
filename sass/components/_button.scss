@@ -1,0 +1,50 @@
+.primary-btn__orang {
+    color: $white-text-color;
+}
+
+.primary-btn__orang,
+.secondary-btn__text,
+.steps-btn {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.secondary-btn {
+    display: inline-flex;
+    align-items: center;
+}
+
+.secondary-btn__text {
+    margin-left: 16px;
+
+    color: $pretitle-text-color;
+}
+
+.steps-btn {
+    display: inline-flex;
+    align-items: center;
+
+    width: 208px;
+    height: 57px;
+
+    border-radius: 50px;
+
+    color: $grin-bg-color;
+    transition: all 250ms ease;
+}
+
+.steps-btn:hover,
+.steps-btn:focus {
+    display: inline-flex;
+    align-items: center;
+
+    color: $white-text-color;
+    background-color: $pretitle-text-color;
+}
+
+.steps-btn__icon {
+    margin-left: 14px;
+
+    overflow: visible;
+}
